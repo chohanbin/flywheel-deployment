@@ -1,0 +1,6 @@
+[submodule "flywheel-data-service"]
+	path = flywheel-data-service
+	url = git@github.com:chohanbin/flywheel-data-service.git
+[submodule "flywheel-web-service"]
+	path = flywheel-web-service
+	url = git@github.com:chohanbin/flywheel-web-service.git
