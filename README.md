@@ -10,8 +10,9 @@ Flywill Trading App is the haven for your big dreams, packed with features to ke
 In truth, this app is not there yet. But! It has taken an important step. Being born! Tiny actions from here on out, compounded over time will indeed lead to great results. 😎
 <br/>
 <br/>
-This app lets the beta customers registered on [Sample Analytics Dataset](https://www.mongodb.com/docs/atlas/sample-data/sample-analytics/#sample-analytics-dataset) to view their transaction history for each acccount. You can play with it too, if you have a [Sample Analytics Dataset](https://www.mongodb.com/docs/atlas/sample-data/sample-analytics/#sample-analytics-dataset) to connect to!
-
+This app lets the beta customers (registered on [Sample Analytics Dataset](https://www.mongodb.com/docs/atlas/sample-data/sample-analytics/#sample-analytics-dataset) to contemplate on their financial history, so that they can come to terms with the past and move forward. Transactions are grouped by the associated account.
+<br />
+<br />
 This app was built with:
 - Backend: Node.js, TypeScript, [Apollo GraphQL Server](https://www.apollographql.com/docs/apollo-server/), [MongoDB Node Driver](https://www.mongodb.com/docs/drivers/node/current/)
 - Frontend: Node.js, TypeScript, [Next.js React Framework](https://nextjs.org/), [Apollo GraphQL Client](https://www.apollographql.com/docs/react/)
@@ -74,6 +75,7 @@ Here's a demonstration of:
 - Fetching a customer data by their `email` from the Data Service API
   - Don't worry, the data shown in the video is fake. Try looking up their home address.
 - Logging into the Web App with their `email`
+
 https://github.com/chohanbin/flywheel-deployment/assets/5660356/dab6b3c3-3ba3-458e-b23d-59e588e89292
 
 Here's a demonstration of:
