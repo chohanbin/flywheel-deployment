@@ -1,0 +1,24 @@
+services:
+  web-service:
+    build: ./flywheel-web-service
+    ports:
+      - "3000:3000"
+    networks:
+      - flywheel
+    environment:
+      - AUTH_SECRET=${AUTH_SECRET}
+      - DATA_SERVICE_ADDRESS=http://data-service:4000/graphql
+
+  data-service:
+    build: ./flywheel-data-service
+    ports:
+      - "4000:4000"
+    networks:
+      - flywheel
+    environment:
+      - DB_CONN_STRING=${DB_CONN_STRING}
+
+networks:
+  flywheel:
+    driver: bridge
+
